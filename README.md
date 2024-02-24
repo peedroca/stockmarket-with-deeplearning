@@ -4,6 +4,24 @@ Neste repositório abordarei algumas técnicas de Machine Learning e Deep Learni
 
 ![CSNA3](/CSNA3/Análise%20Técnica%20CSNA3.png)
 
+# Performance dos modelos - Classificação com LSTM AutoEncoder e Gradiant Boosting
+
+## Backing Test 2023
+
+Ação|Abertura|Fechamento|Lucro/Perda percentual|Valor Aplicado|Valor Final
+:--|:--|:--|:--:|:--|:--
+CSNA3.SA|R$13.42|R$19.66|44.65%|R$1000.00|R$1446.55
+BBAS3.SA|R$30.70|R$55.39|42.02%|R$1000.00|R$1420.17
+PETR4.SA|R$17.76|R$37.24|0.00%|R$1000.00|R$1000.00
+
+## Avaliação das classificações - Dataset Test
+
+Ação|Precisão na Venda|Precisão na Compra|Acurácia
+:--|:--:|:--:|:--:
+CSNA3.SA|77%|77%|77%
+BBAS3.SA|75%|61%|69%
+PETR4.SA|60%|78%|65%
+
 # Containers Usados nos tests
 Execute o comando abaixo para criar um Container com Tensorflow e Jupyter:
 ```bash

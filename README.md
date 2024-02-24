@@ -2,8 +2,10 @@
 
 Neste repositório abordarei algumas técnicas de Machine Learning e Deep Learning para predições no mercado de ações.
 
-# Container used for tests
-Run this command to generete your container
+![CSNA3](/CSNA3/Análise%20Técnica%20CSNA3.png)
+
+# Containers Usados nos tests
+Execute o comando abaixo para criar um Container com Tensorflow e Jupyter:
 ```bash
 docker run --name tf -p 8888:8888 jupyter/tensorflow-notebook
 ```
